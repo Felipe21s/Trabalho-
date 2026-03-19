@@ -1,0 +1,17 @@
+Algoritmo "trocavalores"
+
+Var
+   A, B, temp: inteiro
+
+Inicio
+   A <- 8
+   B <- 14
+
+   temp <- A
+   A <- B
+   B <- temp
+
+   Escreva("Novo valor de A: ", A)
+   Escreva("Novo valor de B: ", B)
+
+Fimalgoritmo
