@@ -1,0 +1,28 @@
+Algoritmo "media_do_aluno"
+
+Var
+   nome: caractere
+   nota1, nota2, nota3, media: real
+
+Inicio
+   // Entrada de dados
+   Escreva("Digite o nome do aluno: ")
+   Leia(nome)
+
+   Escreva("Digite o valor da nota1: ")
+   Leia(nota1)
+
+   Escreva("Digite o valor da nota2: ")
+   Leia(nota2)
+
+   Escreva("Digite o valor da nota3: ")
+   Leia(nota3)
+
+   // Processamento
+   media <- (nota1 + nota2 + nota3) / 3
+
+   // Saída
+   Escreva("Nome do aluno: ", nome)
+   Escreva("Média final: ", media)
+
+Fimalgoritmo
